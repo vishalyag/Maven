@@ -1,6 +1,10 @@
 pipeline { 
     agent any 
     stages {
+        stage('SCM Checkout') {
+            git 'https://github.com/vishalyag/Maven.git'
+        
+        }
         stage('Build') { 
             steps {
                 withMaven(maven : 'apache-maven-3.5.4'){
