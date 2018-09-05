@@ -21,18 +21,18 @@
          <url>file:///home/ubuntu/Releases/</url>
        </repository>
    </distributionManagement-->
-<distributionManagement>
-  <repository>
+<!--distributionManagement>
+  <!--repository>
     <id>nexus-releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://18.222.207.32:8081/repository/maven-releases/</url>
-  </repository>
-  <snapshotRepository>
+    <!--url>http://18.222.207.32:8081/repository/maven-releases/</url-->
+  <!--/repository-->
+  <!--snapshotRepository>
     <id>nexus-snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://18.222.207.32:8081/repository/maven-snapshots/</url>
-  </snapshotRepository>
-</distributionManagement>
+    <!--url>http://18.222.207.32:8081/repository/maven-snapshots/</url-->
+  <!--/snapshotRepository-->
+<!--/distributionManagement -->
 
 
 
